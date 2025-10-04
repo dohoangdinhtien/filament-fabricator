@@ -17,7 +17,7 @@
     </x-slot>
 
     <x-filament::dropdown.list>
-        <x-filament::grid
+        <x-filament-schemas::grid
             :default="$columns['default'] ?? 1"
             :sm="$columns['sm'] ?? null"
             :md="$columns['md'] ?? null"
